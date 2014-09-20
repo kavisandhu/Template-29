@@ -1,0 +1,348 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300);
+
+*{
+	margin:0px; 
+	padding:0px;
+}
+
+
+.brand{
+	margin-top:20px; 
+	display: inline-block;
+}
+
+.upsell{
+	width:100%;
+	float:left;
+	max-height:716px;
+	background:url(../images/bg.jpg) no-repeat;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.upsell h1{
+	font-size:52px;
+	color:#050505;
+	font-weight:700;
+	letter-spacing: -2px;
+}
+
+.upsell h1 span{
+	color:#f62f06;
+}
+
+.upsell h3{
+	text-transform:uppercase;
+	color:#382f28;
+	font-size:24px;
+	font-weight:300;
+	margin-top:0px;
+}
+
+.upsell h3 span{
+	color:#382f28;
+	font-weight:700;
+}
+
+.upsell p.subTitle{
+	padding: 0 160px;
+	margin-top:20px;
+	font-size:15px;
+}
+
+.upsell .product{
+	width:100%;
+	float:left;
+}
+
+.product .col-sm-4{
+	position:relative;
+}
+
+.product .marginTop20{
+	margin-top:20px;
+}
+
+.productImg .left-dir{
+	position:absolute;
+	top:100px;
+	left:-15px;
+	width:50px;
+	height:173px;
+}
+
+.productImg .right-dir{
+	position:absolute;
+	top:100px;
+	right:-15px;
+	width:50px;
+	height:173px;
+}
+
+.btnsection{
+	margin-top:135px;
+	display:inline-block;
+	width:100%;
+}
+
+.buttons{
+	max-width:500px;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.design{
+	max-width:290px;
+	width:100%;
+	height:100px;
+	background:#ffffff;
+	position:absolute;
+	top: 70px;
+	right:18px;
+}
+
+.document{
+	max-width:290px;
+	width:100%;
+	height:100px;
+	background:#ffffff;
+	position:absolute;
+	top: 240px;
+	right:18px;
+}
+
+.setup{
+	max-width:290px;
+	width:100%;
+	height:100px;
+	background:#ffffff;
+	position:absolute;
+	top: 70px;
+	left:19px;
+}
+
+.amazing{
+	max-width:290px;
+	width:100%;
+	height:100px;
+	background:#ffffff;
+	position:absolute;
+	top: 240px;
+	left:19px;
+}
+
+.design span,
+.document span,
+.setup span,
+.amazing span{
+	width:20%;
+	height:100%;
+	float:left;
+	background:#fcfdf6;
+	text-align:center;
+	border-right:1px solid #e6edce;	
+	margin-right:12px;
+}
+
+.design .productTitle,
+.document .productTitle,
+.setup .productTitle,
+.amazing .productTitle{
+	width:70%;
+	float:left;
+}
+
+.design span img,
+.document span img,
+.setup span img,
+.amazing span img{
+	margin-top: 60%;
+}
+
+.design .productTitle h4,
+.document .productTitle h4,
+.setup .productTitle h4,
+.amazing .productTitle h4{
+	color:#353535;
+	font-size:18px;
+	text-align:left;
+	font-weight:600;
+}
+
+.design .productTitle p.des,
+.document .productTitle p.des,
+.setup .productTitle p.des,
+.amazing .productTitle p.des{
+	color:#3c3c3c;
+	display:inline-block;
+	text-align:left;
+	font-size:12px;
+}
+
+.productMobile{
+	max-width:296px;
+	width:100%;
+	margin:0 auto 30px;
+	border-bottom:1px solid #e4ecc8;
+	display:none;
+}
+
+.productMobile .commonDiv{
+	width:100%;
+	height:110px;
+	border:1px solid #e4ecc8;
+	border-bottom:none;
+}
+
+.commonDiv span,
+.commonDiv span,
+.commonDiv span,
+.commonDiv span{
+	width:20%;
+	height:100%;
+	float:left;
+	background:#fcfdf6;
+	text-align:center;
+	border-right:1px solid #e6edce;	
+	margin-right:12px;
+}
+
+.commonDiv .productTitle,
+.commonDiv .productTitle,
+.commonDiv .productTitle,
+.commonDiv .productTitle{
+	width:70%;
+	float:left;
+}
+
+.commonDiv span img,
+.commonDiv span img,
+.commonDiv span img,
+.commonDiv span img{
+	margin-top: 60%;
+}
+
+.commonDiv .productTitle h4,
+.commonDiv .productTitle h4,
+.commonDiv .productTitle h4,
+.commonDiv .productTitle h4{
+	color:#353535;
+	font-size:18px;
+	text-align:left;
+	font-weight:600;
+}
+
+.commonDiv .productTitle p.des,
+.commonDiv .productTitle p.des,
+.commonDiv .productTitle p.des,
+.commonDiv .productTitle p.des{
+	color:#3c3c3c;
+	display:inline-block;
+	text-align:left;
+	font-size:12px;
+}
+
+
+.buttons .yesbtn{
+	padding:10px 45px;
+	color:#9ac901;
+	border:1px solid #aec45f;
+	text-transform:uppercase;
+}
+
+.buttons .nobtn{
+	padding:10px 23px;
+	color:#fe0201;
+	border:1px solid #fe0000;
+	text-transform:uppercase;
+	margin-left:5px;
+}
+
+footer{
+	margin-top:30px;
+	padding:30px 0px;
+}
+
+footer p{
+	text-transform:uppercase;
+	font-size:12px;
+	background:#fff;
+	padding:5px;
+	margin: -13px auto;
+	width:36%;
+}
+
+footer .footerBorder{border-top:1px solid #c9c9c9; width:100%; display:inline-block;}
+
+
+@media only screen and (max-width:1024px){
+	.upsell{ max-height: 675px;}
+	.upsell h1 {font-size: 50px;}
+	.productImg .left-dir{left: -39px;}
+	.productImg .right-dir{right: -38px;}
+	.design, .document{max-width: 245px; right: 44px;}
+	.setup,.amazing{max-width: 245px;  left: 43px; }
+	footer p{width: 42%;}
+	.design .productTitle h4, 
+	.document .productTitle h4, 
+	.setup .productTitle h4, 
+	.amazing .productTitle h4 {font-size: 15px;}
+	
+}
+
+@media only screen and (max-width:768px){
+	.upsell{background:url(../images/bg768.jpg) no-repeat; max-height: 685px;}
+	.upsell h1 {font-size: 38px;}
+	.upsell p.subTitle{padding: 0 30px;}
+	.productImg .left-dir{left: -25px;}
+	.productImg .right-dir{right: -26px;}
+	.design, .document{max-width: 122px; height:102px; right: 28px;}
+	.setup,.amazing{max-width: 122px; height:102px; left: 27px; }
+	.design span, 
+	.document span, 
+	.setup span, 
+	.amazing span{ width: 100%; height: auto; margin: 0; background:none; border:none;}
+	
+	.design span img, 
+	.document span img, 
+	.setup span img, 
+	.amazing span img { margin-top: 9%;}
+	
+	.design .productTitle p.des, 
+	.document .productTitle p.des, 
+	.setup .productTitle p.des, 
+	.amazing .productTitle p.des{display:none;}
+	
+	.design .productTitle, .document .productTitle, .setup .productTitle, .amazing .productTitle{width: 100%;}
+	
+	.design .productTitle h4, 
+	.document .productTitle h4, 
+	.setup .productTitle h4, 
+	.amazing .productTitle h4 {text-align:center;}
+	footer p {width: 56%;}
+	
+}
+
+@media only screen and (max-width:767px){
+	.productLeftdesk, .productRightdesk, .left-dir, .right-dir{display:none;}
+	.upsell {max-height: 735px;}
+	.productMobile{display:block;}
+	.upsell h3 { font-size: 18px;}
+	.buttons{width:65%;}
+	.buttons .nobtn{ margin-left: 0px; margin-top: 5px;  padding: 10px 27px;}
+	footer p { width: 90%;}
+	
+}
+
+@media only screen and (max-width:360px){
+	.upsell h1 { font-size: 24px;}
+	.upsell h3 { font-size: 16px;}
+	.btnsection{margin-top: 100px;}
+	.upsell p.subTitle { padding: 0; font-size: 13px;}
+	.commonDiv .productTitle h4,
+	.commonDiv .productTitle h4,
+	.commonDiv .productTitle h4,
+	.commonDiv .productTitle h4{font-size:15px;}
+	footer p{margin: -22px auto;}
+	
+}
