@@ -78,6 +78,8 @@
 	height:173px;
 }
 
+.imgZindex{position:relative; z-index:1;}
+
 .btnsection{
 	margin-top:135px;
 	display:inline-block;
@@ -258,12 +260,12 @@
 	margin-left:5px;
 }
 
-footer{
+.footer{
 	margin-top:30px;
 	padding:30px 0px;
 }
 
-footer p{
+.footer p{
 	text-transform:uppercase;
 	font-size:12px;
 	background:#fff;
@@ -272,7 +274,7 @@ footer p{
 	width:36%;
 }
 
-footer .footerBorder{border-top:1px solid #c9c9c9; width:100%; display:inline-block;}
+.footer .footerBorder{border-top:1px solid #c9c9c9; width:100%; display:inline-block;}
 
 
 @media only screen and (max-width:1024px){
@@ -286,7 +288,7 @@ footer .footerBorder{border-top:1px solid #c9c9c9; width:100%; display:inline-bl
 	.document .productTitle h4, 
 	.setup .productTitle h4, 
 	.amazing .productTitle h4 {font-size: 15px;}
-	footer p{width: 42%;}
+	.footer p{width: 42%;}
 	
 }
 
@@ -319,7 +321,7 @@ footer .footerBorder{border-top:1px solid #c9c9c9; width:100%; display:inline-bl
 
 @media only screen and (max-width:768px){
 	.upsell{background:url(../images/bg768.jpg) no-repeat; max-height: 685px;}	
-	footer p {width: 56%;}
+	.footer p {width: 56%;}
 	
 }
 
@@ -330,7 +332,7 @@ footer .footerBorder{border-top:1px solid #c9c9c9; width:100%; display:inline-bl
 	.upsell h3 { font-size: 18px;}
 	.buttons{/* width:65%; */ max-width: 210px;}
 	.buttons .nobtn{ margin-left: 0px; margin-top: 5px;  padding: 10px 27px;}
-	footer p { width: 90%;}	
+	.footer p { width: 90%;}	
 }
 
 @media only screen and (max-width:476px){
@@ -351,6 +353,6 @@ footer .footerBorder{border-top:1px solid #c9c9c9; width:100%; display:inline-bl
 	.commonDiv .productTitle h4,
 	.commonDiv .productTitle h4,
 	.commonDiv .productTitle h4{font-size:15px;}
-	footer p{margin: -22px auto;}
+	.footer p{margin: -22px auto;}
 	
 }
